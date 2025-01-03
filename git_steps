@@ -1,0 +1,9 @@
+git code push steps
+
+git init  
+git status 
+git add .
+git commit -m "Initial commit _html headings" 
+git remote add origin https://github.com/manishaditya969/Webdevelopmentprojects.git  
+git branch -M main  
+git push -u origin main  
