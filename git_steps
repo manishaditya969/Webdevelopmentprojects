@@ -85,6 +85,12 @@ Once set, future git push or git pull commands can be done without specifying th
 Would you like more clarification or help with Git commands?
 
 
+==
+git pull  
+git fetch origin  
+git merge origin/main  
+
+
 
 
 
