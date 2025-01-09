@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Heading and Paragraph</title>
+    <style>
+        h1 {
+            position: relative;
+            width: 200px;
+            height: 100px;
+            background-color: green;
+            color: white;
+            text-align: center;
+            
+            top: 500px;
+            left: 400px;
+
+            
+        }
+
+        p {
+            width: 200px;
+            height: 100px;
+            background-color: purple;
+            color: white;
+            text-align: center;
+            
+            margin: 10px;
+            
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading</h1>
+    <p>This is a Paragraph</p>
+</body>
+</html>
+
+<!-- Summary of Static Positioning in CSS
+position: static is the default positioning for all HTML elements.
+When an element has position: static:
+It is positioned according to the normal document flow (i.e., how elements naturally stack on the page without any special positioning).
+Any values for top, right, bottom, or left are ignored because they only apply to elements with relative, absolute, or fixed positioning.
+The element does not create a new positioning context, meaning child elements cannot be positioned relative to it.
+
+Key Points:
+If you don't explicitly set the position property, it defaults to static.
+Use position: static when you don't need to control the exact placement of an element, and you want it to follow the natural flow of the document.
+If you need to move an element around using top, left, etc., use position: relative, absolute, or fixed instead. -->

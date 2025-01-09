@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styled Heading and Paragraph</title>
+    <style>
+      h1 {
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        background-color: green;
+        color: white;
+        text-align: center;
+        top: 200px;
+        left: 300px;
+      }
+
+      p {
+        position: absolute;
+        width: 200px;
+        height: 100px;
+        background-color: purple;
+        color: white;
+        text-align: center;
+        margin: 10px;
+        top: 400px;
+        left: 600px;
+        
+}
+    </style>
+  </head>
+  <body>
+    <h1>Heading</h1>
+    <p>This is a Paragraph</p>
+  </body>
+</html>
+
+
+<!-- Summary of Absolute Positioning (position: absolute) in CSS
+position: absolute removes an element from the normal document flow and positions it relative to its closest positioned ancestor.
+
+Key behaviors:
+
+Once an element is set to position: absolute, it no longer affects the positioning of sibling elements, meaning other elements will behave as if it doesn’t exist (i.e., they can occupy the space it would have taken).
+The element is positioned based on the nearest positioned ancestor:
+A positioned ancestor is any ancestor element with position: relative, absolute, or fixed.
+If no such ancestor exists, the element is positioned relative to the document body.
+You can control the exact position using the top, right, bottom, and left properties. -->
+
+<!-- Use Cases of position: absolute:
+When you need precise control over an element’s placement.
+To create components like modals, tooltips, or dropdown menus that need to "float" over other elements.
+To layer elements by combining it with z-index. -->
